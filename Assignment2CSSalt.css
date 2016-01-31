@@ -1,0 +1,36 @@
+ul.nav {
+  text-align: left;
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  background-color: #60baf8;
+}
+ul.nav li {
+  margin-bottom:82pt;
+  font-size: 30pt;
+}
+a:link{
+  color:#a5041b;
+}
+a:visited{
+  color:#a5041b;
+}
+p.logo {
+  float: right;
+  margin:0em;
+}
+p.clear {
+  float: right;
+}
+h2 {
+  text-align: center;
+}
+body {
+  background-color: #148bdf;
+  color: #fbeef0;
+}
+p.copyright {
+  font-size: 7pt;
+  float: right;
+  color: black;
+}

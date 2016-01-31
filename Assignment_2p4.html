@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<style type="text/css">
+.space {
+  padding-right: 2cm;
+}
+.exp {
+  padding-right: 2.7cm;
+}
+
+</style>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<title> JC Wrestling Academy </title>
+
+<link rel = "stylesheet" href = "Assignment2CSSpref.css" type = "text/css" title= "preferred" />
+<link rel = "alternate stylesheet" href = "Assignment2CSSalt.css" type = "text/css" title = "alternate" />
+
+</head>
+<body>
+
+<p class="logo"><img src="Photos/Logo.jpg" alt="Company Logo" width="870" height="365" /></p>
+
+
+<ul class="nav">
+<li><a href="Assignment_2p1.html"> Home </a></li>
+<li><a href="Assignment_2p2.html"> Prices &amp; Schedule </a></li>
+<li><a href="Assignment_2p3.html"> Contact Us </a></li>
+<li><a href="Assignment_2p4.html"> Order form </a></li>
+</ul>
+
+<h2> Order form </h2>
+
+<form action="orderform.py">
+<p>Input your name (Surname, Given name):<br/>
+<input type="text" name="nameBox" /></p>
+<p>Input your email: <br/>
+<input type="text" name="emailBox" /></p>
+<p> Input your address: <br/>
+Street address: <span class="space"><input type="text" name="streetBox" /></span> 
+City: <span class="space"><input type="text" name="cityBox" /></span>
+Province: <span class="space"><input type="text" name="provinceBox" size="2" maxlength="2"/></span>
+Postal code: <span class="space"><input type="text" name="postalBox" size="6" maxlength="6"/></span> </p>
+<p> Select Credit card type: <br/>
+<select name="typeSelect">
+  <option value="Visa">Visa</option>
+  <option value="MasterCard">MasterCard</option>
+  <option value="Debit">Debit Visa</option>
+  <option value="AMEX">American Express</option>
+</select></p>
+<p> <span class="space">Credit Card Number:</span> Exp. Date<br/>
+<span class="exp"><input type="text" name="cardBox" size="16" maxlength="16"/></span>
+<input type="text" name="Exp1Box" size="2" maxlength="2"/>
+<input type="text" name="Exp2Box" size="2" maxlength="2"/></p>
+
+<p>Products:</p>
+<p>Monthly Training pass Gift Certificates:<br/>
+<span class="exp">$50/each</span>
+Quantity:
+<input type="text" name="monthlyBox" size="3" maxlength="3"/>
+(If none, please enter 0)</p>
+<p>10-punch pass Gift Certificates:<br/>
+<span class="exp">$50/each</span>
+Quantity:
+<input type="text" name="punchBox" size="3" maxlength="3"/>
+(If none, please enter 0)</p>
+<p>Knee Pads:<br/>
+<span class="exp">$30/pair</span>
+Quantity:
+<input type="text" name="padsBox" size="3" maxlength="3"/>
+(If none, please enter 0)</p>
+<p>Ear Guards:<br/>
+<span class="exp">$25/each</span>
+Quantity:
+<input type="text" name="guardsBox" size="3" maxlength="3"/>
+(If none, please enter 0)</p>
+<p>Wrestling shoes:<br/>
+<span class="exp">$100/pair</span>
+Quantity:
+<input type="text" name="shoesBox" size="3" maxlength="3"/>
+(If none, please enter 0)</p>
+
+<p>Do you want your items gift-wrapped? (additional $1 per item)
+<input type="checkbox" name="giftcheck" /></p>
+
+<p>Do you want to be notified when the item ships?
+<input type="checkbox" name="shipcheck" /></p>
+
+<p><input type="submit" name="purchase" value="Purchase!" /></p>
+
+</form>
+</body>
+</html>

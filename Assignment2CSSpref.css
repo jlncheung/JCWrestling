@@ -1,0 +1,32 @@
+ul.nav {
+  list-style-type:none;
+  margin:0;
+  padding:0;
+  overflow: hidden;
+  background-color: #30f4b6;
+  text-align: center;
+}
+ul.nav li {
+  display:inline;
+}
+ul.nav a {
+  margin: 100px;
+}
+p.logo {
+  text-align: center;
+  margin:0em;
+}
+p.clear {
+  float: right;
+}
+h2 {
+  text-align: center;
+}
+body {
+  background-color: #5bc4b2;
+  color: #4d5156;
+}
+p.copyright {
+  font-size: 7pt;
+  float: right;
+}
